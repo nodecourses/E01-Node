@@ -5,5 +5,5 @@ exports.foo = function foo() {
 };
 
 exports.foobar = function() {
-  console.log(foo() + mod.bar());
+  console.log(mod.bar());
 };
